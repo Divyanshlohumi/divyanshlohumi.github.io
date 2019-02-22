@@ -1,10 +1,11 @@
 body{
     background-color: transparent;
-    background-image: url(2-3.jpg);
-    text-align: center;
-    font-size: 20px;
+    background-image: url(images/1_Ffx3cJTrsB8AnBRuBLE3Kw.jpeg);
+    background-size: cover;
+    background-position: -125px;
     margin: 0 0;
 }
+
 h1{
     text-align: center;
     font-size: 50px;    
@@ -14,12 +15,15 @@ nav {
     background-color: transparent;
     padding: 0 0;
 }
+
 nav ul {
     padding:0;
     margin:0;
     list-style: none;
     position: relative;
     }
+
+
 nav ul h1 li {
     padding: 0;
     margin: 0px 50px 0 0;
@@ -34,7 +38,7 @@ nav a {
     background-color: white;
     font-size:20px;
     line-height: 60px;
-    text-decoration:none;
+    text-decoration: none;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 nav a:hover {
@@ -68,50 +72,16 @@ nav ul ul ul {
     padding: 10px;
 }
 footer {
-    padding: 15px;
+    padding: 1em;
     color: white;
     background-color: black;
     clear: left;
     text-align: center;
-    margin: 249px 1.9px 0;
-    letter-spacing: 0.5px;
-    font-size: 15px;
+    margin: 577.9px 1.9px 0; 
+    letter-spacing: 1px;
 }
-
 footer a{
     color: white;
-}
-
-.submit{
-    border-style: thick;
-    font-size: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.submit:hover{
-        background-color: cyan;
-        transition: 0.5s;
-}
-input[type="text"]{
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size: 20px;
-    margin: 10px;
-}
-
-input[type="email"]{
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size: 20px;
-    margin: 10px;
-}
-
-textarea[name="message"]{
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size: 20px;
-    margin: 10px;
-}
-
-label{
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-size: 25px;
 }
 
 input[type=search] {
