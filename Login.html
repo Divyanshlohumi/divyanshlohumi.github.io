@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="Login.css">
+    </head>
+    <body>
+        <nav>
+ <ul>   
+     <li><h1>Sticky<br> 
+        <li><a href="dropdown.html">Home</a></li>
+        <li><a href="#" class="word">Products</a>
+         <ul>
+                <li><a href="#" class="item">Electronics</a>
+                <ul>
+                        <li><a href="#">Mobile Phones</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Accesories</a></li>
+                    </ul>
+             </li>
+                <li><a href="#" class="item">Clothes</a>
+                <ul>
+                        <li><a href="#">Mens</a></li>
+                        <li><a href="#">Womens</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+             </li>
+             <li><a href="#">Kitchen</a></li>
+             <li><a href="#">Home Appliances</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="#">Beauty</a></li>
+             </ul>
+        </li>
+         <li><a onclick="abc()" class="join" href="Login.html">Login</a></li>
+            <li><a href="Signup.html">Sign Up</a></li>
+         <li><a href="contactform.html">Contact Us</a></li>
+        <li><a href="AboutUS.html">About Us</a></li>
+         <li><input type="search" value="" placeholder="Search..."><button><i class="material-icons" id="search">search</i></button></li>
+    
+</h1>
+     </ul>
+    
+    </nav>
+
+        <form>
+            <label>Email:</label><br>
+        <input type="email" id="mail" size="30" required>
+            <br>
+            <label>Password:</label><br>
+            <input type="password" id="detail" size="30" required>
+            <br><br>
+            <input type="submit" value="Login" class="login">
+        </form>
+<footer>
+<a href="/HTML/Help%20and%20customer%20service.html">Conditions of Use &amp; Sale</a> 
+<a href="/HTML/Privacy%20Notice.html">Privacy Notice</a> 
+&copy; 1996-2018, Sticky.com, Inc. or its affiliates</footer>
+        <script>
+            function abc(){
+               
+               var id=$('input[type="password"]');
+                if(id.val()!==""){
+                window.alert("Thank You for joining us!");
+                }
+            }
+        </script>
+    </body>
+</html>

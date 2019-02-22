@@ -1,0 +1,156 @@
+body{
+    background-image: url(kitchen-paint-design-ideas-lovely-light-background-and-repeating-light-background-of-kitchen-paint-design-ideas.jpg);
+    background-size: contain;
+    margin: 0 0;
+    background-position: bottom;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;    
+}
+nav {
+    margin: 0;
+    background-color: transparent;
+    padding: 0 0;
+}
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+nav ul h1 li {
+    padding: 0;
+    margin: 0 50px 0 0;
+    display:inline-block;
+    background-color: transparent;
+    text-align: center;
+}
+nav a {
+    display:block;
+    padding:0 20px;
+    color: black;
+    background-color: white;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+    box-shadow: 0 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+nav a:hover {
+    background-color: deepskyblue;
+}
+
+
+nav ul ul{
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover > ul{
+    display:inherit;
+    margin: 0 -100px;
+}
+
+nav ul ul li {
+    min-width:170px;
+    display:block;
+    position: relative;
+}
+
+nav ul ul ul {
+    position: absolute;
+    top:0;
+    left:290px;
+}
+.word::after{
+    content: "▼";
+    font-size: 14px;
+}
+.item::after{
+    content: "►";
+    font-size: 10px;
+    padding: 10px;
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center; 
+    letter-spacing: 1px;
+}
+footer a{
+    color: white;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 0;
+    margin: 1px -40px;
+    color: white;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+img{
+    width: 200px;
+}
+.men{
+    height: 225px;
+    margin: -10px;
+}
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.start{
+    font-size: 17px;
+    background-color: orange;
+    color: black;
+    border-width: thin;
+    border-color: white;
+}
+.start:hover {
+    background-color: deepskyblue;
+}
+
+input[type="number"]{
+    margin: 3px;
+}
+
+input[type="number"]:focus{
+    width: 200px;
+    background-color: skyblue;
+}
+
+input[type=search] {
+    width: 200px;
+    height: 28px;
+}
+
+input[type=search]:focus {
+    background-color: whitesmoke;
+}
+.material-icons{
+    vertical-align: -20%;
+}
+#search{
+    vertical-align: -38%;
+    width: 60px;
+    color: deepskyblue;
+    height: 22px;
+}
